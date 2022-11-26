@@ -3,11 +3,27 @@
 }
 
 .App {
-  padding: 15px;
-  /* text-align: right; */
+  padding: 15px;  
 }
 
 .btn {
   color: white ;
   border: none;
+  cursor: pointer;
+}
+
+.expand {
+  /* padding: 5px; */
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column  ;
+}
+.file-name {
+  display: inline-block;
+  font-size: large;
+}
+
+.item {
+  padding: 5px;
+  
 }
